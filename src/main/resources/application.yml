@@ -1,0 +1,14 @@
+# WEB部分
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+#thymeleaf
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
+spring:
+  mvc:
+    static-path-pattern: /**
